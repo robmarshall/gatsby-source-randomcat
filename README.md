@@ -11,18 +11,18 @@ module.exports = {
   plugins: [
     {
       resolve: "gatsby-source-randomcat",
-      options: { api: "", catCategories: "" }
+      options: { apiKey: "", limit: "" }
     }
   ]
 };
 ```
 
-## Get API
+## Get API key
 
 https://thecatapi.com/
 
-## Set Cat Categories
+## Set Cat Limit
 
-Check out https://api.thecatapi.com/v1/categories
+How many cats do you want? Or need!?
 
-You can use more than one category id by using a comma to separate them for a mix of results. e.g. category_ids=1,4 for hats & sunglasses
+(The limit on the API is 100)
