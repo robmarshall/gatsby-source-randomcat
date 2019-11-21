@@ -2,14 +2,6 @@ const axios = require("axios");
 const chalk = require("chalk");
 const log = console.log;
 
-const {
-  flattenArray,
-  getCurrentTimestamp,
-  isArray,
-  isObject,
-  isObjEmpty
-} = require("./utils/helpers");
-
 // Set the current active enviroment
 let activeEnv =
   process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || "development";
